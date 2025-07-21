@@ -1,4 +1,4 @@
-package two_pointers;
+package sliding_window;
 
 public class MaximumAverageSubarray_1 {
     public static void main(String[] args) {
