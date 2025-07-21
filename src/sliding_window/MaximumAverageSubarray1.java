@@ -1,13 +1,13 @@
 package sliding_window;
 
-public class MaximumAverageSubarray1 {
-    public static void main(String[] args){
+public class MaximumAverageSubarray1{
+    public static void main(String[] args) {
         int[] nums = {1,12,-5,-6,50,3};
         int k = 4;
         System.out.println(findMaxAverage(nums, k));
     }
     public static double findMaxAverage(int[] nums, int k){
-        // Get sum for starting window
+        // Get sum for the starting window
         int sum = 0;
         for(int i=0; i<k; i++){
             sum += nums[i];
